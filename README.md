@@ -16,6 +16,8 @@ Color-Time 2D Barcode (CT2B) is a method capable of generating massive distingui
 - `openpyxl`
 - `itertools`
 - `os`
+- `SimpleITK`
+- `SimpleITK-SimpleElastix`
   
 Here are the steps you need to take to install the python environment and the above libraries:
 
@@ -54,9 +56,3 @@ print(f"pandas version: {pd.__version__}")
 ```
 
 This script will print the installed versions of the libraries. If you see the version numbers printed without any errors, the libraries were installed successfully.
-
-## Run
-```bash
-Subtraction for CT2B.ipynb
-Linear unmixing for CT2B for CT2B.ipynb
-```
