@@ -1,25 +1,13 @@
-# Imaging Spatial Proteomics with Color-Time 2D Barcode
-## Overview of CT2B
-Color-Time 2D Barcode (CT2B) is a method capable of generating massive distinguishable tags for spatial proteomics imaging with easily accessible equipment and reagent. To decode proteins from CT2B images, we developed an AI algorithm platform here. The algorithm accurately aligns fluorescent images captured at different time points, and decodes proteins via two unique algorithms called `Subtraction` and `Linear unmixing`. The step-by-step operations and important notes can be found in the corresponding section of each algorithm file.
+# Fluoro-changing Tags Based on DNA Strand Displacement Enable Highly Multiplexed Protein Imaging
+## Overview of FcTags
+Fluoro-changing Tags (FcTags) are capable of generating exponentially scalable antibody tags for spatial proteomics imaging with easily accessible equipment and reagent. To decode proteins from FcTag-based images, we developed an AI algorithm platform here. The algorithm accurately aligns fluorescent images captured at different time points, and decodes proteins via two unique algorithms called `Subtraction` and `Linear unmixing`. The step-by-step operations and important notes can be found in the corresponding section of each algorithm file.
 
 ## Computer hardware (optional)
 - Computer workstation equipped with an AMD Ryzen 5975WX CPU
 - NVIDIA RTX 3090 graphics processing card
 
 ## Environmental setup
-- `PIL`
-- `opencv-python`
-- `numpy`
-- `scipy`
-- `scikit-image`
-- `pandas`
-- `openpyxl`
-- `itertools`
-- `os`
-- `SimpleITK`
-- `SimpleITK-SimpleElastix`
-  
-Here are the steps you need to take to install the python environment and the above libraries:
+See pyproject.toml file for library version and various dependencies. Here are the steps to setup the python environment:
 
 ### 1. Install Jupyter Notebook 7.x (or Python 3.x)
 The algorithm is crafted in Python and executed within Jupyter Notebook.  To execute the files, you have the option to install either `Python 3.x` or `Jupyter Notebook 7.x`.
